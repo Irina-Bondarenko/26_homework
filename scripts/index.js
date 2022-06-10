@@ -1,7 +1,7 @@
 "use strict";
 
 // HOMEWORK #26
-void (function () {
+void function () {
   function randomGenerator() {
     const array = [];
 
@@ -24,4 +24,4 @@ void (function () {
   let randomGeneratorVariable = randomGenerator();
 
   console.log(randomGeneratorVariable);
-})();
+}();
